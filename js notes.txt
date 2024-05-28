@@ -1,0 +1,120 @@
+javascript lesson
+
+data types of javascript
+
+1. Undefined - variable that hasn't been set yet
+2. Null - nothing
+3. Boolean - true or false
+4. String
+5. Symbol - primitive unique number
+6. Number
+7. Objects - key value pairs
+
+variable - label of a data 
+_________________________________
+
+Array
+
+use [] for array
+length = index to add an element to the last index
+push(value) = adds element on the last index
+unshift(value) = adds an element on the first index
+
+To delete an element on the array
+length = change length to desired number
+pop() = deletes the last element
+shift() = deletes the first element
+slice(start, end) = gets a part of the array
+--------------------------------------------------
+advance function
+
+declaration vs definition
+
+what ever is inside () is called a parameter
+arguments = when you're calling the variable's parameter
+
+Global function = variable inside function cannot be access outside the scope and function can access all variables inside the global scope
+
+outer function can't access variable inside inner function but inner function can access any variable inside the scope
+
+${variable} = new way to concatinate
+-----------------------------------------------------
+Looping
+
+FOR LOOP
+first is to set the initial value, then create a condition lastly is to increment
+
+--------------------------------------------------------
+OOP crash course
+
+Object literals
+
+values = specific info set by you
+keys = Title of any info in your variable
+
+Prototype = if you want to store a specific info and do not want it to belong in the object itself
+
+Inheritance = to create new object and inherit the properties of other object
+
+tagalog explanation
+
+Constructor = eto yung mga info na sineset mo yung value para madescribe yung isang function
+
+ex: may function na ang name nya is Employee, si Employee ay may pangalan, edad, at trabaho(eto yung bumubuo sa isang constructor).
+
+--------------------------------------------------------
+Document Object Model
+
+**basically, JS is used when you want to manipulate data in HTML with changing what's inside of it
+
+Stepbystep Guide
+First is to create a variable for us to manipulate classes and ID's. 
+then create a function that you want js to do in your code
+then deploy it using event listener
+
+let btn = document.querySelector('.button') - allows us to manipulate the button by creating a variable
+
+Use of query vs queryAll:
+
+query - ginagamit kapag isang parameter lang sa list ang imamanipulate. it select the first item na magmatch sa given parameter. accept all css selectors 
+
+for example there are a lot of div in an HTML file, then you can only manipulate the first div
+
+* you can't manipulate query with for loop because it can only manipulates the first part of the parameter
+
+
+queryall - pwedeng manipulate ang buong list sa pamamagitan ng for loop
+
+Event Listener = ginagamit para utusan si js na gawin ang specific function sa object
+
+Event Probagation - refers to how event travels through DOM
+3 phases of Event Probagation
+1. Event Capturing
+2. Target
+3. Event Bubbling
+
+Event Delegation - allows users to append a single event listener to a parent element that adds it to all of its present and future descendants that match the selector
+
+****Difference between let and const
+We use let when we know that the value of the variable may change over time. For example, when we are working with a variable inside a loop, or when we want to update the value of a variable based on user input. On the other hand, we use const when we want to create a variable that should not be reassigned.
+
+------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
